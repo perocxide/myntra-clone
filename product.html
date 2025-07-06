@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Myntra 2025 Clone</title>
+  <link rel="stylesheet" href="product.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <img src="images/Myntra-icon-logo.png" alt="M" class="logo" />
+
+    <ul class="nav-links">
+      <li class="mdd">
+        <a href="#">MEN</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Topwear</h4>
+            <a href="#">T-Shirts</a>
+            <a href="#">Shirts</a>
+            <a href="#">Jackets</a>
+          </div>
+          <div class="mega-column">
+            <h4>Bottomwear</h4>
+            <a href="#">Jeans</a>
+            <a href="#">Trousers</a>
+            <a href="#">Shorts</a>
+          </div>
+          <div class="mega-column">
+            <h4>Footwear</h4>
+            <a href="#">Sneakers</a>
+            <a href="#">Boots</a>
+            <a href="#">Sandals</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mdd">
+        <a href="#">WOMEN</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Indian Wear</h4>
+            <a href="#">Kurtas</a>
+            <a href="#">Sarees</a>
+            <a href="#">Lehengas</a>
+          </div>
+          <div class="mega-column">
+            <h4>Western</h4>
+            <a href="#">Tops</a>
+            <a href="#">Dresses</a>
+            <a href="#">Skirts</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mdd">
+        <a href="#">KIDS</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Boys Clothing</h4>
+            <a href="#">T-Shirts</a>
+            <a href="#">Shirts</a>
+            <a href="#">Jeans</a>
+          </div>
+          <div class="mega-column">
+            <h4>Girls Clothing</h4>
+            <a href="#">Dresses</a>
+            <a href="#">Tops</a>
+            <a href="#">Skirts</a>
+          </div>
+          <div class="mega-column">
+            <h4>Footwear</h4>
+            <a href="#">Flip Flops</a>
+            <a href="#">Casual Shoes</a>
+            <a href="#">Sandals</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mdd">
+        <a href="#">HOME</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Bed Linen</h4>
+            <a href="#">Bedsheets</a>
+            <a href="#">Blankets</a>
+            <a href="#">Pillow Covers</a>
+          </div>
+          <div class="mega-column">
+            <h4>Home Décor</h4>
+            <a href="#">Wall Art</a>
+            <a href="#">Lamps</a>
+            <a href="#">Showpieces</a>
+          </div>
+          <div class="mega-column">
+            <h4>Kitchen</h4>
+            <a href="#">Cookware</a>
+            <a href="#">Dining</a>
+            <a href="#">Storage</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mdd">
+        <a href="#">BEAUTY</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Makeup</h4>
+            <a href="#">Lipstick</a>
+            <a href="#">Foundation</a>
+            <a href="#">Kajal</a>
+          </div>
+          <div class="mega-column">
+            <h4>Skin</h4>
+            <a href="#">Moisturizers</a>
+            <a href="#">Cleansers</a>
+            <a href="#">Sunscreen</a>
+          </div>
+          <div class="mega-column">
+            <h4>Hair</h4>
+            <a href="#">Shampoo</a>
+            <a href="#">Conditioner</a>
+            <a href="#">Hair Oil</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mdd">
+        <a href="#">GENZ</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h4>Trendy Picks</h4>
+            <a href="#">Oversized Tees</a>
+            <a href="#">Cargo Pants</a>
+            <a href="#">Streetwear</a>
+          </div>
+          <div class="mega-column">
+            <h4>Sneaker Zone</h4>
+            <a href="#">High Tops</a>
+            <a href="#">Slip Ons</a>
+            <a href="#">Chunky Sneakers</a>
+          </div>
+          <div class="mega-column">
+            <h4>Accessories</h4>
+            <a href="#">Bucket Hats</a>
+            <a href="#">Cool Shades</a>
+            <a href="#">Chains</a>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <a class="studio" href="#">STUDIO</a>
+      </li>
+    </ul>
+
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search for products, brands and more" />
+    </div>
+
+    <div class="icon-container">
+      <img src="images/user.png" alt="Profile" class="functions" />
+    </div>
+    <div class="icon-container">
+      <img src="images/wishlist.png" alt="Wishlist" class="functions" />
+      <span class="wcount"></span>
+    </div>
+    <div class="icon-container">
+      <img src="images/shopping-cart.png" alt="Bag" class="functions" />
+      <span class="bcount"></span>
+    </div>
+  </header>
+  <div class="path">
+    myntra clone / home / <strong>Second Page</strong>
+  </div>
+  <div class="pageTitle">
+    Myntra Clone Page 2
+  </div>
+  <div class="filter-topbar">
+    <div class="sort-filter-left">
+      <div class="dropdown">
+        <button class="dropbtn">Bundles <span class="arrow">&#9662;</span></button>
+        <div class="dropdown-content">
+          <label><input type="checkbox" /> Single</label>
+          <label><input type="checkbox" /> Pack of 2</label>
+          <label><input type="checkbox" /> Pack of 3</label>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Country of Origin <span class="arrow">&#9662;</span></button>
+        <div class="dropdown-content">
+          <label><input type="checkbox" /> India</label>
+          <label><input type="checkbox" /> Bangladesh</label>
+          <label><input type="checkbox" /> China</label>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Size <span class="arrow">&#9662;</span></button>
+        <div class="dropdown-content">
+          <label><input type="checkbox" /> S</label>
+          <label><input type="checkbox" /> M</label>
+          <label><input type="checkbox" /> L</label>
+          <label><input type="checkbox" /> XL</label>
+        </div>
+      </div>
+    </div>
+    <div class="sort-filter-right">
+      <div class="dropdown">
+        <button class="dropbtn">Sort by : <strong>Recommended</strong> <span class="arrow">&#9662;</span></button>
+        <div class="dropdown-content">
+          <label><input type="radio" name="sort" checked /> Recommended</label>
+          <label><input type="radio" name="sort" /> Price: Low to High</label>
+          <label><input type="radio" name="sort" /> Price: High to Low</label>
+          <label><input type="radio" name="sort" /> Newest First</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <aside class="sidebar">
+      <h3>FILTERS</h3>
+      <details class="filter-section" open>
+        <summary>
+          <h4>CATEGORIES</h4>
+        </summary>
+        <label><input type="checkbox" /> Sarees</label>
+        <label><input type="checkbox" /> Kurta Sets</label>
+        <label><input type="checkbox" /> Kurtas</label>
+        <label><input type="checkbox" /> Dress Material</label>
+        <label><input type="checkbox" /> Saree Blouse</label>
+        <label><input type="checkbox" /> Lehenga Choli</label>
+        <label><input type="checkbox" /> Ethnic Dresses</label>
+        <label><input type="checkbox" /> Dupatta</label>
+      </details>
+      <details class="filter-section">
+        <summary>
+          <h4>BRAND</h4>
+        </summary>
+        <label><input type="checkbox" /> Kalini</label>
+        <label><input type="checkbox" /> HERE&NOW</label>
+        <label><input type="checkbox" /> 7Threads</label>
+        <label><input type="checkbox" /> Anouk</label>
+      </details>
+      <details class="filter-section">
+        <summary>
+          <h4>DISCOUNT RANGE</h4>
+        </summary>
+        <label><input type="checkbox" /> 10% and above</label>
+        <label><input type="checkbox" /> 30% and above</label>
+        <label><input type="checkbox" /> 50% and above</label>
+        <label><input type="checkbox" /> 70% and above</label>
+      </details>
+      <details class="filter-section">
+        <summary>
+          <h4>PRICE</h4>
+        </summary>
+        <label><input type="checkbox" /> Under ₹500</label>
+        <label><input type="checkbox" /> ₹500-1000</label>
+        <label><input type="checkbox" /> ₹1000-2000</label>
+        <label><input type="checkbox" /> ₹2000 and above</label>
+      </details>
+    </aside>
+    <div class="productgrid">
+      <div class="img-con">
+        <div class="rating-overlay"> 4.5 <span style="color: green;">&#9733;</span> | 3.9k</div>
+        <img src="images/c1.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            SUNGLASSES
+          </div>
+          <div class="detail">
+            Lenskart sunglasses with premium features
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 1999</span>
+            <span class="a-price"><del>Rs 5499</del></span>
+            <span class="discount-applied">65%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: adjustable</div>
+          <div class="price">
+            <span class="d-price">Rs 1999</span>
+            <span class="a-price"><del>Rs 5499</del></span>
+            <span class="discount-applied">65%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.2 <span style="color: green;">&#9733;</span> | 109</div>
+        <img src="images/c2.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            JEANS
+          </div>
+          <div class="detail">
+            pure cotton and no chemicals
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 999</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">33.3%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: S/M/L</div>
+          <div class="price">
+            <span class="d-price">Rs 999</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">33.3%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 3.9 <span style="color: green;">&#9733;</span> | 2k</div>
+        <img src="images/c3.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            BEACH HAT </div>
+          <div class="detail">
+            super comfortable and soft fabric
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 198</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">80%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: adjustable</div>
+          <div class="price">
+            <span class="d-price">Rs 198</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">80%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.1 <span style="color: green;">&#9733;</span> | 9k</div>
+        <img src="images/c4.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            A-SHORTS
+          </div>
+          <div class="detail">
+            quality fabric and super comfortable
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 799</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">50%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span>&#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 799</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">50%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay">3.8 <span style="color: green;">&#9733;</span> | 503</div>
+        <img src="images/c5.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            Z-SHORTS
+          </div>
+          <div class="detail">
+            stylish and cool
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 399</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">75%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 399</span>
+            <span class="a-price"><del>Rs 1599</del></span>
+            <span class="discount-applied">75%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.7 <span style="color: green;">&#9733;</span> | 100k</div>
+        <img src="images/c6.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            TRESME SHAMPOO
+          </div>
+          <div class="detail">
+            undefeated quality and trust
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 299</span>
+            <span class="a-price"><del>Rs 399</del></span>
+            <span class="discount-applied">25%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span>&#x2661;</span>WISHLIST</div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 299</span>
+            <span class="a-price"><del>Rs 399</del></span>
+            <span class="discount-applied">25%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 5 <span style="color: green;">&#9733;</span> | 33.9k</div>
+        <img src="images/c7.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            PARACHUTE OIL
+          </div>
+          <div class="detail">
+            100% pure aloe vera oil
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 79</span>
+            <span class="a-price"><del>Rs 99</del></span>
+            <span class="discount-applied">20%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 79</span>
+            <span class="a-price"><del>Rs 99</del></span>
+            <span class="discount-applied">20%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 3.5 <span style="color: green;">&#9733;</span> | 214</div>
+        <img src="images/c8.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            COMB
+          </div>
+          <div class="detail">
+            best and comfortable
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 59</span>
+            <span class="a-price"><del>Rs 99</del></span>
+            <span class="discount-applied">40%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 59</span>
+            <span class="a-price"><del>Rs 99</del></span>
+            <span class="discount-applied">40%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.0 <span style="color: green;">&#9733;</span> | 1012</div>
+        <img src="images/c9.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            A-FOOTWARE
+          </div>
+          <div class="detail">
+            ease to wear
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 249</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">75%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span>&#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 249</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">75%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.5 <span style="color: green;">&#9733;</span> | 155</div>
+        <img src="images/c10.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            B-FOOTWARE
+          </div>
+          <div class="detail">
+            ease to wear
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 209</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">79%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 209</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">79%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.5 <span style="color: green;">&#9733;</span> | 13</div>
+        <img src="images/c11.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            C-FOOTWARE
+          </div>
+          <div class="detail">
+            ease to wear
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 599</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">40%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 599</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">40%</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-con">
+        <div class="rating-overlay"> 4.5 <span style="color: green;">&#9733;</span> | 39</div>
+        <img src="images/c12.jpg" alt="prod" class="c">
+        <div class="details">
+          <div class="name">
+            D-FOOTWARE
+          </div>
+          <div class="detail">
+            ease to wear
+          </div>
+          <div class="price">
+            <span class="d-price">Rs 899</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">10%</span>
+          </div>
+        </div>
+        <div class="wish">
+          <div class="wishlist"><span> &#x2661;</span> WISHLIST </div>
+          <div class="size">size: normal</div>
+          <div class="price">
+            <span class="d-price">Rs 899</span>
+            <span class="a-price"><del>Rs 999</del></span>
+            <span class="discount-applied">10%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Shipping Info</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Rishabh (this footer is AI generated). All rights reserved.</p>
+    </div>
+  </footer>
+  <div id="profileModal" class="modal_hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <div id="wishlistModal" class="modal_hidden">
+    <div class="modal-content">
+      <span class="close-wishlist">&times;</span>
+      <h2>Your Wishlist</h2>
+      <button class="clear-wishlist">Clear All</button>
+      <div id="wishlist-items"></div>
+    </div>
+  </div>
+
+  <div id="cart-modal" class="modal-hidden">
+    <div class="modal-content">
+      <span class="close-cart">&times;</span>
+      <div class="cart-container">
+        <div id="cart-items" class="cart-items-section"></div>
+        <div class="accounting">
+          <div class="price-summary"></div>
+          <div class="total"></div>
+          <div class="place-order-btn">Place Order</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
