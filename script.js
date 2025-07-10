@@ -150,7 +150,6 @@ function initProfileAndWishlistModals() {
           let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
           wishlist.splice(index, 1);
           localStorage.setItem('wishlist', JSON.stringify(wishlist));
-          bagCount();
           wishlistIcon.click(); // Refresh modal
         });
       });
@@ -172,7 +171,6 @@ function initProfileAndWishlistModals() {
 
           wishlist.splice(index, 1);
           localStorage.setItem('wishlist', JSON.stringify(wishlist));
-          bagCount();
           wishlistIcon.click();
         });
       });
@@ -222,7 +220,6 @@ function initProfileAndWishlistModals() {
         alert('Order placed successfully!');
         localStorage.setItem('orders', JSON.stringify(orders));
         localStorage.removeItem('cart');
-        bagCount();
         cartIcon.click();
       });
       placeOrder.dataset.listenerAdded = "true";
@@ -276,10 +273,9 @@ function initProfileAndWishlistModals() {
           cart.splice(index, 1);
           localStorage.setItem('cart', JSON.stringify(cart));
           cartIcon.click();
-          bagCount();
         });
       });
-      bagCount();
+
       cartModal.className = 'modal_visible_topright';
     });
   }
@@ -317,7 +313,6 @@ function initWishlistClicks() {
       } else {
         alert('This item is already in your wishlist');
       }
-      bagCount();
     });
   });
 }

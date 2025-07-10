@@ -151,7 +151,7 @@ a:hover {
 .wcount , .bcount {
     position: relative;
     top: -40px;
-    right: -28px;
+    right: -30px;
     background-color: red;
     color: white;
     font-size: 10px;
@@ -173,6 +173,10 @@ a:hover {
 
 .icon-container:hover {
     transform: scale(1.08);
+}
+
+.icon-label {
+    margin-left: 25px;
 }
 
 .path {
@@ -524,7 +528,7 @@ aside.sidebar {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.734);
+    background-color: rgba(255, 255, 255, 0.449);
     z-index: 1000;
 }
 
@@ -558,6 +562,7 @@ aside.sidebar {
     background: transparent;
 }
 
+/* Wishlist Item Card */
 #wishlist-items>div {
     display: flex;
     align-items: flex-start;
@@ -581,6 +586,7 @@ aside.sidebar {
     flex-grow: 1;
 }
 
+/* Wishlist Text */
 #wishlist-items strong {
     font-size: 14px;
     color: #333;
@@ -596,6 +602,7 @@ aside.sidebar {
     color: #000;
 }
 
+/* Buttons inside Wishlist Modal */
 #wishlist-items button,
 #cart-items button {
     background-color: #ff3e6c;
@@ -614,11 +621,13 @@ aside.sidebar {
     background-color: #e6005c;
 }
 
+/* Modal Content Container */
 .modal-content {
     position: relative;
     padding: 1rem;
 }
 
+/* Close button */
 .close {
     position: absolute;
     top: 10px;
@@ -628,6 +637,7 @@ aside.sidebar {
     color: #000000;
 }
 
+/* Form Inputs */
 #modal-body input {
     display: block;
     width: 100%;
